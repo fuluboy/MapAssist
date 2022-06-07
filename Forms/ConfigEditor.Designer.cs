@@ -271,7 +271,7 @@
             this.tabPage5.Name = "tabPage5";
             this.tabPage5.Size = new System.Drawing.Size(412, 327);
             this.tabPage5.TabIndex = 4;
-            this.tabPage5.Text = "Main";
+            this.tabPage5.Text = "主要";
             this.tabPage5.UseVisualStyleBackColor = true;
             // 
             // groupBox5
@@ -287,7 +287,7 @@
             this.groupBox5.Size = new System.Drawing.Size(388, 60);
             this.groupBox5.TabIndex = 25;
             this.groupBox5.TabStop = false;
-            this.groupBox5.Text = "Translation";
+            this.groupBox5.Text = "語系";
             // 
             // cboLanguage
             // 
@@ -306,7 +306,7 @@
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(55, 13);
             this.label11.TabIndex = 13;
-            this.label11.Text = "Language";
+            this.label11.Text = "語系";
             // 
             // groupBox4
             // 
@@ -354,7 +354,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(133, 13);
             this.label1.TabIndex = 15;
-            this.label1.Text = "Leave blank to auto-detect";
+            this.label1.Text = "不填則代表自動偵測";
             // 
             // grpGameInfo
             // 
@@ -378,7 +378,7 @@
             this.grpGameInfo.Size = new System.Drawing.Size(388, 144);
             this.grpGameInfo.TabIndex = 23;
             this.grpGameInfo.TabStop = false;
-            this.grpGameInfo.Text = "Game Info";
+            this.grpGameInfo.Text = "遊戲資訊";
             // 
             // chkShowAreaLevel
             // 
@@ -389,7 +389,7 @@
             this.chkShowAreaLevel.Name = "chkShowAreaLevel";
             this.chkShowAreaLevel.Size = new System.Drawing.Size(77, 17);
             this.chkShowAreaLevel.TabIndex = 39;
-            this.chkShowAreaLevel.Text = "Area Level";
+            this.chkShowAreaLevel.Text = "區域地圖等級";
             this.chkShowAreaLevel.UseVisualStyleBackColor = true;
             this.chkShowAreaLevel.CheckedChanged += new System.EventHandler(this.chkShowAreaLevel_CheckedChanged);
             // 
@@ -414,7 +414,7 @@
             this.lblGameInfoPosition.Name = "lblGameInfoPosition";
             this.lblGameInfoPosition.Size = new System.Drawing.Size(44, 13);
             this.lblGameInfoPosition.TabIndex = 35;
-            this.lblGameInfoPosition.Text = "Position";
+            this.lblGameInfoPosition.Text = "位置";
             // 
             // chkGameInfoTextShadow
             // 
@@ -423,7 +423,7 @@
             this.chkGameInfoTextShadow.Name = "chkGameInfoTextShadow";
             this.chkGameInfoTextShadow.Size = new System.Drawing.Size(89, 17);
             this.chkGameInfoTextShadow.TabIndex = 34;
-            this.chkGameInfoTextShadow.Text = "Text Shadow";
+            this.chkGameInfoTextShadow.Text = "文字陰影";
             this.chkGameInfoTextShadow.UseVisualStyleBackColor = true;
             this.chkGameInfoTextShadow.CheckedChanged += new System.EventHandler(this.chkGameInfoTextShadow_CheckedChanged);
             // 
@@ -436,7 +436,7 @@
             this.chkShowOverlayFPS.Name = "chkShowOverlayFPS";
             this.chkShowOverlayFPS.Size = new System.Drawing.Size(85, 17);
             this.chkShowOverlayFPS.TabIndex = 2;
-            this.chkShowOverlayFPS.Text = "Overlay FPS";
+            this.chkShowOverlayFPS.Text = "畫面幀數";
             this.chkShowOverlayFPS.UseVisualStyleBackColor = true;
             this.chkShowOverlayFPS.CheckedChanged += new System.EventHandler(this.chkShowOverlayFPS_CheckedChanged);
             // 
@@ -447,7 +447,7 @@
             this.chkShowDifficulty.Name = "chkShowDifficulty";
             this.chkShowDifficulty.Size = new System.Drawing.Size(66, 17);
             this.chkShowDifficulty.TabIndex = 38;
-            this.chkShowDifficulty.Text = "Difficulty";
+            this.chkShowDifficulty.Text = "難度";
             this.chkShowDifficulty.UseVisualStyleBackColor = true;
             this.chkShowDifficulty.CheckedChanged += new System.EventHandler(this.chkShowDifficulty_CheckedChanged);
             // 
@@ -471,7 +471,7 @@
             this.btnGameInfoFont.Name = "btnGameInfoFont";
             this.btnGameInfoFont.Size = new System.Drawing.Size(75, 23);
             this.btnGameInfoFont.TabIndex = 32;
-            this.btnGameInfoFont.Text = "Font";
+            this.btnGameInfoFont.Text = "字型";
             this.btnGameInfoFont.UseVisualStyleBackColor = false;
             this.btnGameInfoFont.Click += new System.EventHandler(this.btnGameInfoFont_Click);
             // 
@@ -484,7 +484,7 @@
             this.chkShowAreaTimer.Name = "chkShowAreaTimer";
             this.chkShowAreaTimer.Size = new System.Drawing.Size(77, 17);
             this.chkShowAreaTimer.TabIndex = 41;
-            this.chkShowAreaTimer.Text = "Area Timer";
+            this.chkShowAreaTimer.Text = "區域計時";
             this.chkShowAreaTimer.UseVisualStyleBackColor = true;
             this.chkShowAreaTimer.CheckedChanged += new System.EventHandler(this.chkShowAreaTimer_CheckedChanged);
             // 
@@ -495,7 +495,7 @@
             this.chkShowGameTimer.Name = "chkShowGameTimer";
             this.chkShowGameTimer.Size = new System.Drawing.Size(83, 17);
             this.chkShowGameTimer.TabIndex = 40;
-            this.chkShowGameTimer.Text = "Game Timer";
+            this.chkShowGameTimer.Text = "遊戲計時";
             this.chkShowGameTimer.UseVisualStyleBackColor = true;
             this.chkShowGameTimer.CheckedChanged += new System.EventHandler(this.chkShowGameTimer_CheckedChanged);
             // 
@@ -508,7 +508,7 @@
             this.chkShowArea.Name = "chkShowArea";
             this.chkShowArea.Size = new System.Drawing.Size(48, 17);
             this.chkShowArea.TabIndex = 16;
-            this.chkShowArea.Text = "Area";
+            this.chkShowArea.Text = "地圖區域";
             this.chkShowArea.UseVisualStyleBackColor = true;
             this.chkShowArea.CheckedChanged += new System.EventHandler(this.chkShowArea_CheckedChanged);
             // 
@@ -519,7 +519,7 @@
             this.chkShowGameName.Name = "chkShowGameName";
             this.chkShowGameName.Size = new System.Drawing.Size(120, 17);
             this.chkShowGameName.TabIndex = 37;
-            this.chkShowGameName.Text = "Game Name && Pass";
+            this.chkShowGameName.Text = "遊戲名稱與密碼";
             this.chkShowGameName.UseVisualStyleBackColor = true;
             this.chkShowGameName.CheckedChanged += new System.EventHandler(this.chkShowGameName_CheckedChanged);
             // 
@@ -532,7 +532,7 @@
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage1.Size = new System.Drawing.Size(412, 327);
             this.tabPage1.TabIndex = 0;
-            this.tabPage1.Text = "Map";
+            this.tabPage1.Text = "地圖";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
             // groupBox1
@@ -570,7 +570,7 @@
             this.groupBox1.Size = new System.Drawing.Size(388, 308);
             this.groupBox1.TabIndex = 21;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Rendering";
+            this.groupBox1.Text = "渲染";
             // 
             // btnClearExpRangeColor
             // 
@@ -592,7 +592,7 @@
             this.btnExpRangeColor.Name = "btnExpRangeColor";
             this.btnExpRangeColor.Size = new System.Drawing.Size(97, 23);
             this.btnExpRangeColor.TabIndex = 28;
-            this.btnExpRangeColor.Text = "Exp Range Color";
+            this.btnExpRangeColor.Text = "已探索區域顏色";
             this.btnExpRangeColor.UseVisualStyleBackColor = true;
             this.btnExpRangeColor.Click += new System.EventHandler(this.btnExpRangeColor_Click);
             // 
@@ -603,7 +603,7 @@
             this.chkMonsterHealthBar.Name = "chkMonsterHealthBar";
             this.chkMonsterHealthBar.Size = new System.Drawing.Size(147, 17);
             this.chkMonsterHealthBar.TabIndex = 26;
-            this.chkMonsterHealthBar.Text = "Show Monster Health Bar";
+            this.chkMonsterHealthBar.Text = "怪物血條";
             this.chkMonsterHealthBar.UseVisualStyleBackColor = true;
             this.chkMonsterHealthBar.CheckedChanged += new System.EventHandler(this.chkMonsterHealthBar_CheckedChanged);
             // 
@@ -640,7 +640,7 @@
             this.chkStickToLastGameWindow.Name = "chkStickToLastGameWindow";
             this.chkStickToLastGameWindow.Size = new System.Drawing.Size(236, 17);
             this.chkStickToLastGameWindow.TabIndex = 25;
-            this.chkStickToLastGameWindow.Text = "Keep Overlay Active On Last Game Window";
+            this.chkStickToLastGameWindow.Text = "保持覆蓋上一個遊戲視窗";
             this.chkStickToLastGameWindow.UseVisualStyleBackColor = true;
             this.chkStickToLastGameWindow.CheckedChanged += new System.EventHandler(this.chkStickToLastGameWindow_CheckedChanged);
             // 
@@ -651,7 +651,7 @@
             this.btnBorderColor.Name = "btnBorderColor";
             this.btnBorderColor.Size = new System.Drawing.Size(91, 23);
             this.btnBorderColor.TabIndex = 23;
-            this.btnBorderColor.Text = "Border Color";
+            this.btnBorderColor.Text = "邊線顏色";
             this.btnBorderColor.UseVisualStyleBackColor = true;
             this.btnBorderColor.Click += new System.EventHandler(this.btnBorderColor_Click);
             // 
@@ -662,7 +662,7 @@
             this.btnWalkableColor.Name = "btnWalkableColor";
             this.btnWalkableColor.Size = new System.Drawing.Size(91, 23);
             this.btnWalkableColor.TabIndex = 22;
-            this.btnWalkableColor.Text = "Walkable Color";
+            this.btnWalkableColor.Text = "可行區域顏色";
             this.btnWalkableColor.UseVisualStyleBackColor = true;
             this.btnWalkableColor.Click += new System.EventHandler(this.btnWalkableColor_Click);
             // 
@@ -673,7 +673,7 @@
             this.chkOverlayMode.Name = "chkOverlayMode";
             this.chkOverlayMode.Size = new System.Drawing.Size(92, 17);
             this.chkOverlayMode.TabIndex = 5;
-            this.chkOverlayMode.Text = "Overlay Mode";
+            this.chkOverlayMode.Text = "覆蓋模式";
             this.chkOverlayMode.UseVisualStyleBackColor = true;
             this.chkOverlayMode.CheckedChanged += new System.EventHandler(this.chkOverlayMode_CheckedChanged);
             // 
@@ -684,7 +684,7 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(44, 13);
             this.label2.TabIndex = 7;
-            this.label2.Text = "Position";
+            this.label2.Text = "位置";
             // 
             // cboPosition
             // 
@@ -752,7 +752,7 @@
             this.lblZoom.Name = "lblZoom";
             this.lblZoom.Size = new System.Drawing.Size(63, 13);
             this.lblZoom.TabIndex = 14;
-            this.lblZoom.Text = "Zoom Level";
+            this.lblZoom.Text = "放大等級";
             // 
             // lblMapSizeValue
             // 
@@ -789,7 +789,7 @@
             this.lblMapSize.Name = "lblMapSize";
             this.lblMapSize.Size = new System.Drawing.Size(51, 13);
             this.lblMapSize.TabIndex = 11;
-            this.lblMapSize.Text = "Map Size";
+            this.lblMapSize.Text = "地圖尺寸";
             // 
             // lblIconOpacityValue
             // 
@@ -838,7 +838,7 @@
             this.lblOpacity.Name = "lblOpacity";
             this.lblOpacity.Size = new System.Drawing.Size(67, 13);
             this.lblOpacity.TabIndex = 2;
-            this.lblOpacity.Text = "Map Opacity";
+            this.lblOpacity.Text = "地圖透明度";
             // 
             // chkToggleViaMap
             // 
@@ -847,7 +847,7 @@
             this.chkToggleViaMap.Name = "chkToggleViaMap";
             this.chkToggleViaMap.Size = new System.Drawing.Size(177, 17);
             this.chkToggleViaMap.TabIndex = 8;
-            this.chkToggleViaMap.Text = "Show/Hide Using In-Game Map";
+            this.chkToggleViaMap.Text = "切換顯示遊戲地圖 ";
             this.chkToggleViaMap.UseVisualStyleBackColor = true;
             this.chkToggleViaMap.CheckedChanged += new System.EventHandler(this.chkToggleViaMap_CheckedChanged);
             // 
@@ -859,7 +859,7 @@
             this.lblIconOpacity.Name = "lblIconOpacity";
             this.lblIconOpacity.Size = new System.Drawing.Size(67, 13);
             this.lblIconOpacity.TabIndex = 4;
-            this.lblIconOpacity.Text = "Icon Opacity";
+            this.lblIconOpacity.Text = "圖標透明度";
             // 
             // chkToggleViaPanels
             // 
@@ -868,7 +868,7 @@
             this.chkToggleViaPanels.Name = "chkToggleViaPanels";
             this.chkToggleViaPanels.Size = new System.Drawing.Size(206, 17);
             this.chkToggleViaPanels.TabIndex = 9;
-            this.chkToggleViaPanels.Text = "Hide When In-Game Menus Are Open";
+            this.chkToggleViaPanels.Text = "遊戲選單開啟時自動隱藏";
             this.chkToggleViaPanels.UseVisualStyleBackColor = true;
             this.chkToggleViaPanels.CheckedChanged += new System.EventHandler(this.chkToggleViaPanels_CheckedChanged);
             // 
@@ -882,7 +882,7 @@
             this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage3.Size = new System.Drawing.Size(412, 327);
             this.tabPage3.TabIndex = 2;
-            this.tabPage3.Text = "Overlay";
+            this.tabPage3.Text = "覆蓋";
             this.tabPage3.UseVisualStyleBackColor = true;
             // 
             // groupBox7
@@ -902,7 +902,7 @@
             this.groupBox7.Size = new System.Drawing.Size(388, 90);
             this.groupBox7.TabIndex = 25;
             this.groupBox7.TabStop = false;
-            this.groupBox7.Text = "Player Info";
+            this.groupBox7.Text = "角色資訊";
             // 
             // chkPotionBelt
             // 
@@ -911,7 +911,7 @@
             this.chkPotionBelt.Name = "chkPotionBelt";
             this.chkPotionBelt.Size = new System.Drawing.Size(77, 17);
             this.chkPotionBelt.TabIndex = 25;
-            this.chkPotionBelt.Text = "Potion Belt";
+            this.chkPotionBelt.Text = "腰帶藥水";
             this.chkPotionBelt.UseVisualStyleBackColor = true;
             this.chkPotionBelt.CheckedChanged += new System.EventHandler(this.chkPotionBelt_CheckedChanged);
             // 
@@ -922,7 +922,7 @@
             this.chkResistances.Name = "chkResistances";
             this.chkResistances.Size = new System.Drawing.Size(84, 17);
             this.chkResistances.TabIndex = 24;
-            this.chkResistances.Text = "Resistances";
+            this.chkResistances.Text = "抗性";
             this.chkResistances.UseVisualStyleBackColor = true;
             this.chkResistances.CheckedChanged += new System.EventHandler(this.chkResistances_CheckedChanged);
             // 
@@ -933,7 +933,7 @@
             this.chkExpProgress.Name = "chkExpProgress";
             this.chkExpProgress.Size = new System.Drawing.Size(88, 17);
             this.chkExpProgress.TabIndex = 5;
-            this.chkExpProgress.Text = "Exp Progress";
+            this.chkExpProgress.Text = "經驗值進度";
             this.chkExpProgress.UseVisualStyleBackColor = true;
             this.chkExpProgress.CheckedChanged += new System.EventHandler(this.chkExpProgress_CheckedChanged);
             // 
@@ -944,7 +944,7 @@
             this.chkCurrentLevel.Name = "chkCurrentLevel";
             this.chkCurrentLevel.Size = new System.Drawing.Size(89, 17);
             this.chkCurrentLevel.TabIndex = 4;
-            this.chkCurrentLevel.Text = "Current Level";
+            this.chkCurrentLevel.Text = "角色等級";
             this.chkCurrentLevel.UseVisualStyleBackColor = true;
             this.chkCurrentLevel.CheckedChanged += new System.EventHandler(this.chkCurrentLevel_CheckedChanged);
             // 
@@ -955,7 +955,7 @@
             this.chkManaPerc.Name = "chkManaPerc";
             this.chkManaPerc.Size = new System.Drawing.Size(93, 17);
             this.chkManaPerc.TabIndex = 3;
-            this.chkManaPerc.Text = "Mana Percent";
+            this.chkManaPerc.Text = "法力百分比";
             this.chkManaPerc.UseVisualStyleBackColor = true;
             this.chkManaPerc.CheckedChanged += new System.EventHandler(this.chkManaPerc_CheckedChanged);
             // 
@@ -966,7 +966,7 @@
             this.chkMana.Name = "chkMana";
             this.chkMana.Size = new System.Drawing.Size(53, 17);
             this.chkMana.TabIndex = 2;
-            this.chkMana.Text = "Mana";
+            this.chkMana.Text = "法力";
             this.chkMana.UseVisualStyleBackColor = true;
             this.chkMana.CheckedChanged += new System.EventHandler(this.chkMana_CheckedChanged);
             // 
@@ -977,7 +977,7 @@
             this.chkLifePerc.Name = "chkLifePerc";
             this.chkLifePerc.Size = new System.Drawing.Size(83, 17);
             this.chkLifePerc.TabIndex = 1;
-            this.chkLifePerc.Text = "Life Percent";
+            this.chkLifePerc.Text = "生命百分比";
             this.chkLifePerc.UseVisualStyleBackColor = true;
             this.chkLifePerc.CheckedChanged += new System.EventHandler(this.chkLifePerc_CheckedChanged);
             // 
@@ -988,7 +988,7 @@
             this.chkLife.Name = "chkLife";
             this.chkLife.Size = new System.Drawing.Size(43, 17);
             this.chkLife.TabIndex = 0;
-            this.chkLife.Text = "Life";
+            this.chkLife.Text = "生命";
             this.chkLife.UseVisualStyleBackColor = true;
             this.chkLife.CheckedChanged += new System.EventHandler(this.chkLife_CheckedChanged);
             // 
@@ -1004,7 +1004,7 @@
             this.grpPresets.Size = new System.Drawing.Size(388, 51);
             this.grpPresets.TabIndex = 24;
             this.grpPresets.TabStop = false;
-            this.grpPresets.Text = "Presets";
+            this.grpPresets.Text = "預設值";
             // 
             // lblMapLinesMode
             // 
@@ -1013,7 +1013,7 @@
             this.lblMapLinesMode.Name = "lblMapLinesMode";
             this.lblMapLinesMode.Size = new System.Drawing.Size(86, 13);
             this.lblMapLinesMode.TabIndex = 21;
-            this.lblMapLinesMode.Text = "Map Lines Mode";
+            this.lblMapLinesMode.Text = "地圖線條模式";
             this.lblMapLinesMode.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
             // cboMapLinesMode
@@ -1046,7 +1046,7 @@
             this.groupBox3.Size = new System.Drawing.Size(388, 125);
             this.groupBox3.TabIndex = 23;
             this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "Buff Bar";
+            this.groupBox3.Text = "BUFF 顯示";
             // 
             // chkDebuffs
             // 
@@ -1066,7 +1066,7 @@
             this.chkPassives.Name = "chkPassives";
             this.chkPassives.Size = new System.Drawing.Size(68, 17);
             this.chkPassives.TabIndex = 28;
-            this.chkPassives.Text = "Passives";
+            this.chkPassives.Text = "被動";
             this.chkPassives.UseVisualStyleBackColor = true;
             this.chkPassives.CheckedChanged += new System.EventHandler(this.chkPassives_CheckedChanged);
             // 
@@ -1077,7 +1077,7 @@
             this.chkAuras.Name = "chkAuras";
             this.chkAuras.Size = new System.Drawing.Size(53, 17);
             this.chkAuras.TabIndex = 27;
-            this.chkAuras.Text = "Auras";
+            this.chkAuras.Text = "光環";
             this.chkAuras.UseVisualStyleBackColor = true;
             this.chkAuras.CheckedChanged += new System.EventHandler(this.chkAuras_CheckedChanged);
             // 
@@ -1099,7 +1099,7 @@
             this.chkAlertLowerRes.Name = "chkAlertLowerRes";
             this.chkAlertLowerRes.Size = new System.Drawing.Size(161, 17);
             this.chkAlertLowerRes.TabIndex = 23;
-            this.chkAlertLowerRes.Text = "Alert If Lowered Resistances";
+            this.chkAlertLowerRes.Text = "低抗性警告";
             this.chkAlertLowerRes.UseVisualStyleBackColor = true;
             this.chkAlertLowerRes.CheckedChanged += new System.EventHandler(this.chkAlertLowerRes_CheckedChanged);
             // 
@@ -1122,7 +1122,7 @@
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(44, 13);
             this.label5.TabIndex = 19;
-            this.label5.Text = "Position";
+            this.label5.Text = "位置";
             // 
             // lblBuffSize
             // 
@@ -1132,7 +1132,7 @@
             this.lblBuffSize.Name = "lblBuffSize";
             this.lblBuffSize.Size = new System.Drawing.Size(51, 13);
             this.lblBuffSize.TabIndex = 16;
-            this.lblBuffSize.Text = "Icon Size";
+            this.lblBuffSize.Text = "圖示尺寸";
             // 
             // cboBuffPosition
             // 
@@ -1170,7 +1170,7 @@
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage2.Size = new System.Drawing.Size(412, 327);
             this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "Drawing";
+            this.tabPage2.Text = "繪製樣式";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
             // tabDrawing
@@ -1208,7 +1208,7 @@
             this.tabIcon.Padding = new System.Windows.Forms.Padding(3);
             this.tabIcon.Size = new System.Drawing.Size(398, 260);
             this.tabIcon.TabIndex = 0;
-            this.tabIcon.Text = "Icon";
+            this.tabIcon.Text = "圖示";
             this.tabIcon.UseVisualStyleBackColor = true;
             // 
             // btnIconColor
@@ -1219,7 +1219,7 @@
             this.btnIconColor.Name = "btnIconColor";
             this.btnIconColor.Size = new System.Drawing.Size(75, 23);
             this.btnIconColor.TabIndex = 10;
-            this.btnIconColor.Text = "Fill Color";
+            this.btnIconColor.Text = "填充顏色";
             this.btnIconColor.UseVisualStyleBackColor = false;
             this.btnIconColor.Click += new System.EventHandler(this.btnIconColor_Click);
             // 
@@ -1231,7 +1231,7 @@
             this.btnIconOutlineColor.Name = "btnIconOutlineColor";
             this.btnIconOutlineColor.Size = new System.Drawing.Size(85, 23);
             this.btnIconOutlineColor.TabIndex = 18;
-            this.btnIconOutlineColor.Text = "Outline Color";
+            this.btnIconOutlineColor.Text = "外框顏色";
             this.btnIconOutlineColor.UseVisualStyleBackColor = false;
             this.btnIconOutlineColor.Click += new System.EventHandler(this.btnIconOutlineColor_Click);
             // 
@@ -1293,7 +1293,7 @@
             this.lblIconThickness.Name = "lblIconThickness";
             this.lblIconThickness.Size = new System.Drawing.Size(40, 13);
             this.lblIconThickness.TabIndex = 17;
-            this.lblIconThickness.Text = "Outline";
+            this.lblIconThickness.Text = "外框";
             // 
             // iconThickness
             // 
@@ -1319,7 +1319,7 @@
             this.lblIconSize.Name = "lblIconSize";
             this.lblIconSize.Size = new System.Drawing.Size(27, 13);
             this.lblIconSize.TabIndex = 15;
-            this.lblIconSize.Text = "Size";
+            this.lblIconSize.Text = "尺寸";
             // 
             // iconSize
             // 
@@ -1344,7 +1344,7 @@
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(38, 13);
             this.label9.TabIndex = 13;
-            this.label9.Text = "Shape";
+            this.label9.Text = "形狀";
             // 
             // cboIconShape
             // 
@@ -1368,7 +1368,7 @@
             this.tabLabel.Padding = new System.Windows.Forms.Padding(3);
             this.tabLabel.Size = new System.Drawing.Size(398, 260);
             this.tabLabel.TabIndex = 1;
-            this.tabLabel.Text = "Label";
+            this.tabLabel.Text = "標籤";
             this.tabLabel.UseVisualStyleBackColor = true;
             // 
             // chkTextShadow
@@ -1378,7 +1378,7 @@
             this.chkTextShadow.Name = "chkTextShadow";
             this.chkTextShadow.Size = new System.Drawing.Size(89, 17);
             this.chkTextShadow.TabIndex = 32;
-            this.chkTextShadow.Text = "Text Shadow";
+            this.chkTextShadow.Text = "文字陰影";
             this.chkTextShadow.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.chkTextShadow.UseVisualStyleBackColor = true;
             this.chkTextShadow.CheckedChanged += new System.EventHandler(this.chkTextShadow_CheckedChanged);
@@ -1416,7 +1416,7 @@
             this.btnFont.Name = "btnFont";
             this.btnFont.Size = new System.Drawing.Size(75, 23);
             this.btnFont.TabIndex = 20;
-            this.btnFont.Text = "Font";
+            this.btnFont.Text = "字型";
             this.btnFont.UseVisualStyleBackColor = false;
             this.btnFont.Click += new System.EventHandler(this.btnFont_Click);
             // 
@@ -1428,7 +1428,7 @@
             this.btnLabelColor.Name = "btnLabelColor";
             this.btnLabelColor.Size = new System.Drawing.Size(75, 23);
             this.btnLabelColor.TabIndex = 16;
-            this.btnLabelColor.Text = "Color";
+            this.btnLabelColor.Text = "顏色";
             this.btnLabelColor.UseVisualStyleBackColor = false;
             this.btnLabelColor.Click += new System.EventHandler(this.btnLabelColor_Click);
             // 
@@ -1446,7 +1446,7 @@
             this.tabLine.Name = "tabLine";
             this.tabLine.Size = new System.Drawing.Size(398, 260);
             this.tabLine.TabIndex = 2;
-            this.tabLine.Text = "Line";
+            this.tabLine.Text = "線條";
             this.tabLine.UseVisualStyleBackColor = true;
             // 
             // btnClearLineColor
@@ -1494,7 +1494,7 @@
             this.lblLineThickness.Name = "lblLineThickness";
             this.lblLineThickness.Size = new System.Drawing.Size(59, 13);
             this.lblLineThickness.TabIndex = 23;
-            this.lblLineThickness.Text = "Thickness ";
+            this.lblLineThickness.Text = "粗細度";
             // 
             // lineThicknessSize
             // 
@@ -1520,7 +1520,7 @@
             this.lblLineArrow.Name = "lblLineArrow";
             this.lblLineArrow.Size = new System.Drawing.Size(57, 13);
             this.lblLineArrow.TabIndex = 21;
-            this.lblLineArrow.Text = "Arrow Size";
+            this.lblLineArrow.Text = "箭頭尺寸";
             // 
             // lineArrowSize
             // 
@@ -1546,7 +1546,7 @@
             this.btnLineColor.Name = "btnLineColor";
             this.btnLineColor.Size = new System.Drawing.Size(75, 23);
             this.btnLineColor.TabIndex = 18;
-            this.btnLineColor.Text = "Color";
+            this.btnLineColor.Text = "顏色";
             this.btnLineColor.UseVisualStyleBackColor = false;
             this.btnLineColor.Click += new System.EventHandler(this.btnLineColor_Click);
             // 
@@ -1557,7 +1557,7 @@
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(106, 13);
             this.label8.TabIndex = 1;
-            this.label8.Text = "Configure Setting For";
+            this.label8.Text = "設定樣式類型為";
             // 
             // cboRenderOption
             // 
@@ -1578,7 +1578,7 @@
             this.tabPage6.Name = "tabPage6";
             this.tabPage6.Size = new System.Drawing.Size(412, 327);
             this.tabPage6.TabIndex = 5;
-            this.tabPage6.Text = "Item Log";
+            this.tabPage6.Text = "掉落紀錄";
             this.tabPage6.UseVisualStyleBackColor = true;
             // 
             // groupBox6
@@ -1624,7 +1624,7 @@
             this.groupBox6.Size = new System.Drawing.Size(388, 305);
             this.groupBox6.TabIndex = 0;
             this.groupBox6.TabStop = false;
-            this.groupBox6.Text = "Item Log";
+            this.groupBox6.Text = "掉落紀錄";
             // 
             // cboItemLogSound
             // 
@@ -1656,7 +1656,7 @@
             this.btnSuperiorColor.Name = "btnSuperiorColor";
             this.btnSuperiorColor.Size = new System.Drawing.Size(56, 23);
             this.btnSuperiorColor.TabIndex = 54;
-            this.btnSuperiorColor.Text = "Superior";
+            this.btnSuperiorColor.Text = "無形/凹槽";
             this.btnSuperiorColor.UseVisualStyleBackColor = true;
             this.btnSuperiorColor.Click += new System.EventHandler(this.btnSuperiorColor_Click);
             // 
@@ -1680,7 +1680,7 @@
             this.btnUniqueColor.Name = "btnUniqueColor";
             this.btnUniqueColor.Size = new System.Drawing.Size(56, 23);
             this.btnUniqueColor.TabIndex = 52;
-            this.btnUniqueColor.Text = "Unique";
+            this.btnUniqueColor.Text = "獨特";
             this.btnUniqueColor.UseVisualStyleBackColor = true;
             this.btnUniqueColor.Click += new System.EventHandler(this.btnUniqueColor_Click);
             // 
@@ -1704,7 +1704,7 @@
             this.btnSetColor.Name = "btnSetColor";
             this.btnSetColor.Size = new System.Drawing.Size(56, 23);
             this.btnSetColor.TabIndex = 50;
-            this.btnSetColor.Text = "Set";
+            this.btnSetColor.Text = "套裝";
             this.btnSetColor.UseVisualStyleBackColor = true;
             this.btnSetColor.Click += new System.EventHandler(this.btnSetColor_Click);
             // 
@@ -1728,7 +1728,7 @@
             this.btnCraftedColor.Name = "btnCraftedColor";
             this.btnCraftedColor.Size = new System.Drawing.Size(56, 23);
             this.btnCraftedColor.TabIndex = 48;
-            this.btnCraftedColor.Text = "Crafted";
+            this.btnCraftedColor.Text = "手工";
             this.btnCraftedColor.UseVisualStyleBackColor = true;
             this.btnCraftedColor.Click += new System.EventHandler(this.btnCraftedColor_Click);
             // 
@@ -1752,7 +1752,7 @@
             this.btnRareColor.Name = "btnRareColor";
             this.btnRareColor.Size = new System.Drawing.Size(56, 23);
             this.btnRareColor.TabIndex = 46;
-            this.btnRareColor.Text = "Rare";
+            this.btnRareColor.Text = "稀有";
             this.btnRareColor.UseVisualStyleBackColor = true;
             this.btnRareColor.Click += new System.EventHandler(this.btnRareColor_Click);
             // 
@@ -1776,7 +1776,7 @@
             this.btnMagicColor.Name = "btnMagicColor";
             this.btnMagicColor.Size = new System.Drawing.Size(56, 23);
             this.btnMagicColor.TabIndex = 44;
-            this.btnMagicColor.Text = "Magic";
+            this.btnMagicColor.Text = "魔法";
             this.btnMagicColor.UseVisualStyleBackColor = true;
             this.btnMagicColor.Click += new System.EventHandler(this.btnMagicColor_Click);
             // 
@@ -1787,7 +1787,7 @@
             this.chkShowDirectionToItem.Name = "chkShowDirectionToItem";
             this.chkShowDirectionToItem.Size = new System.Drawing.Size(137, 17);
             this.chkShowDirectionToItem.TabIndex = 42;
-            this.chkShowDirectionToItem.Text = "Show Direction To Item";
+            this.chkShowDirectionToItem.Text = "掉落物品方向提示";
             this.chkShowDirectionToItem.UseVisualStyleBackColor = true;
             this.chkShowDirectionToItem.CheckedChanged += new System.EventHandler(this.chkShowDirectionToItem_CheckedChanged);
             // 
@@ -1798,7 +1798,7 @@
             this.chkShowDistanceToItem.Name = "chkShowDistanceToItem";
             this.chkShowDistanceToItem.Size = new System.Drawing.Size(182, 17);
             this.chkShowDistanceToItem.TabIndex = 41;
-            this.chkShowDistanceToItem.Text = "Show Item Distance / Picked Up";
+            this.chkShowDistanceToItem.Text = "掉落物品距離 / 已拾取";
             this.chkShowDistanceToItem.UseVisualStyleBackColor = true;
             this.chkShowDistanceToItem.CheckedChanged += new System.EventHandler(this.chkShowDistanceToItem_CheckedChanged);
             // 
@@ -1809,7 +1809,7 @@
             this.chkItemLogVendorItems.Name = "chkItemLogVendorItems";
             this.chkItemLogVendorItems.Size = new System.Drawing.Size(122, 17);
             this.chkItemLogVendorItems.TabIndex = 40;
-            this.chkItemLogVendorItems.Text = "Check Vendor Items";
+            this.chkItemLogVendorItems.Text = "檢查販賣物品";
             this.chkItemLogVendorItems.UseVisualStyleBackColor = true;
             this.chkItemLogVendorItems.CheckedChanged += new System.EventHandler(this.chkItemLogVendorItems_CheckedChanged);
             // 
@@ -1844,7 +1844,7 @@
             this.chkLogTextShadow.Name = "chkLogTextShadow";
             this.chkLogTextShadow.Size = new System.Drawing.Size(89, 17);
             this.chkLogTextShadow.TabIndex = 31;
-            this.chkLogTextShadow.Text = "Text Shadow";
+            this.chkLogTextShadow.Text = "文字陰影";
             this.chkLogTextShadow.UseVisualStyleBackColor = true;
             this.chkLogTextShadow.CheckedChanged += new System.EventHandler(this.chkLogTextShadow_CheckedChanged);
             // 
@@ -1886,7 +1886,7 @@
             this.chkItemLogEnabled.Name = "chkItemLogEnabled";
             this.chkItemLogEnabled.Size = new System.Drawing.Size(65, 17);
             this.chkItemLogEnabled.TabIndex = 0;
-            this.chkItemLogEnabled.Text = "Enabled";
+            this.chkItemLogEnabled.Text = "開啟";
             this.chkItemLogEnabled.UseVisualStyleBackColor = true;
             this.chkItemLogEnabled.CheckedChanged += new System.EventHandler(this.chkItemLogEnabled_CheckedChanged);
             // 
@@ -1897,7 +1897,7 @@
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(48, 13);
             this.label16.TabIndex = 1;
-            this.label16.Text = "Filter File";
+            this.label16.Text = "物品掉落過濾";
             // 
             // btnLogFont
             // 
@@ -1906,7 +1906,7 @@
             this.btnLogFont.Name = "btnLogFont";
             this.btnLogFont.Size = new System.Drawing.Size(75, 23);
             this.btnLogFont.TabIndex = 22;
-            this.btnLogFont.Text = "Font";
+            this.btnLogFont.Text = "字型";
             this.btnLogFont.UseVisualStyleBackColor = false;
             this.btnLogFont.Click += new System.EventHandler(this.btnLogFont_Click);
             // 
@@ -1917,7 +1917,7 @@
             this.lblItemLogPosition.Name = "lblItemLogPosition";
             this.lblItemLogPosition.Size = new System.Drawing.Size(44, 13);
             this.lblItemLogPosition.TabIndex = 37;
-            this.lblItemLogPosition.Text = "Position";
+            this.lblItemLogPosition.Text = "位置";
             // 
             // soundVolume
             // 
@@ -1943,7 +1943,7 @@
             this.chkPlaySound.Name = "chkPlaySound";
             this.chkPlaySound.Size = new System.Drawing.Size(123, 17);
             this.chkPlaySound.TabIndex = 3;
-            this.chkPlaySound.Text = "Play Sound On Drop";
+            this.chkPlaySound.Text = "物品掉落播放提示";
             this.chkPlaySound.UseVisualStyleBackColor = true;
             this.chkPlaySound.CheckedChanged += new System.EventHandler(this.chkPlaySound_CheckedChanged);
             // 
@@ -1954,7 +1954,7 @@
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(42, 13);
             this.label10.TabIndex = 27;
-            this.label10.Text = "Volume";
+            this.label10.Text = "音量";
             // 
             // label17
             // 
@@ -1963,7 +1963,7 @@
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(57, 13);
             this.label17.TabIndex = 4;
-            this.label17.Text = "Sound File";
+            this.label17.Text = "音效檔";
             // 
             // label18
             // 
@@ -1972,7 +1972,7 @@
             this.label18.Name = "label18";
             this.label18.Size = new System.Drawing.Size(75, 13);
             this.label18.TabIndex = 6;
-            this.label18.Text = "Hide item after";
+            this.label18.Text = "隱藏物品提示";
             // 
             // cboItemLogPosition
             // 
@@ -2003,7 +2003,7 @@
             this.chkItemLogItemsOnIdentify.Name = "chkItemLogItemsOnIdentify";
             this.chkItemLogItemsOnIdentify.Size = new System.Drawing.Size(139, 17);
             this.chkItemLogItemsOnIdentify.TabIndex = 39;
-            this.chkItemLogItemsOnIdentify.Text = "Check Items On Identify";
+            this.chkItemLogItemsOnIdentify.Text = "辨識時檢查物品";
             this.chkItemLogItemsOnIdentify.UseVisualStyleBackColor = true;
             this.chkItemLogItemsOnIdentify.CheckedChanged += new System.EventHandler(this.chkItemLogItemsOnIdentify_CheckedChanged);
             // 
@@ -2016,7 +2016,7 @@
             this.label21.Name = "label21";
             this.label21.Size = new System.Drawing.Size(80, 13);
             this.label21.TabIndex = 26;
-            this.label21.Text = "Requires restart";
+            this.label21.Text = "需要重新啟動";
             // 
             // tabPage7
             // 
@@ -2026,7 +2026,7 @@
             this.tabPage7.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage7.Size = new System.Drawing.Size(412, 327);
             this.tabPage7.TabIndex = 6;
-            this.tabPage7.Text = "Hotkeys";
+            this.tabPage7.Text = "快速鍵";
             this.tabPage7.UseVisualStyleBackColor = true;
             // 
             // grpHotkeys
@@ -2052,7 +2052,7 @@
             this.grpHotkeys.Size = new System.Drawing.Size(388, 214);
             this.grpHotkeys.TabIndex = 9;
             this.grpHotkeys.TabStop = false;
-            this.grpHotkeys.Text = "Hotkeys";
+            this.grpHotkeys.Text = "快速鍵";
             // 
             // txtToggleConfigKey
             // 
@@ -2071,7 +2071,7 @@
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(136, 13);
             this.label4.TabIndex = 21;
-            this.label4.Text = "Toggle Config Window Key";
+            this.label4.Text = "開啟設定視窗";
             // 
             // txtHideMapKey
             // 
@@ -2090,7 +2090,7 @@
             this.lblHideMapKey.Name = "lblHideMapKey";
             this.lblHideMapKey.Size = new System.Drawing.Size(74, 13);
             this.lblHideMapKey.TabIndex = 18;
-            this.lblHideMapKey.Text = "Hide Map Key";
+            this.lblHideMapKey.Text = "隱藏地圖";
             // 
             // txtZoomOutKey
             // 
@@ -2149,7 +2149,7 @@
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(75, 13);
             this.label15.TabIndex = 11;
-            this.label15.Text = "Zoom Out Key";
+            this.label15.Text = "縮小";
             // 
             // label14
             // 
@@ -2158,7 +2158,7 @@
             this.label14.Name = "label14";
             this.label14.Size = new System.Drawing.Size(67, 13);
             this.label14.TabIndex = 10;
-            this.label14.Text = "Zoom In Key";
+            this.label14.Text = "放大";
             // 
             // label13
             // 
@@ -2167,7 +2167,7 @@
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(123, 13);
             this.label13.TabIndex = 9;
-            this.label13.Text = "Cycle Map Positions Key";
+            this.label13.Text = "地圖位置";
             // 
             // label12
             // 
@@ -2176,7 +2176,7 @@
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(85, 13);
             this.label12.TabIndex = 8;
-            this.label12.Text = "Toggle Map Key";
+            this.label12.Text = "切換地圖";
             // 
             // label22
             // 
@@ -2185,7 +2185,7 @@
             this.label22.Name = "label22";
             this.label22.Size = new System.Drawing.Size(86, 13);
             this.label22.TabIndex = 17;
-            this.label22.Text = "Export Items Key";
+            this.label22.Text = "匯出物品";
             // 
             // tabPage4
             // 
@@ -2196,7 +2196,7 @@
             this.tabPage4.Name = "tabPage4";
             this.tabPage4.Size = new System.Drawing.Size(412, 327);
             this.tabPage4.TabIndex = 3;
-            this.tabPage4.Text = "Advanced";
+            this.tabPage4.Text = "進階";
             this.tabPage4.UseVisualStyleBackColor = true;
             // 
             // groupBox2
@@ -2211,7 +2211,7 @@
             this.groupBox2.Size = new System.Drawing.Size(388, 100);
             this.groupBox2.TabIndex = 2;
             this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Hidden Areas";
+            this.groupBox2.Text = "隱藏不顯示區域";
             // 
             // btnRemoveHidden
             // 
@@ -2258,7 +2258,7 @@
             this.groupBoxAuthorizedWindowTitle.Size = new System.Drawing.Size(388, 124);
             this.groupBoxAuthorizedWindowTitle.TabIndex = 2;
             this.groupBoxAuthorizedWindowTitle.TabStop = false;
-            this.groupBoxAuthorizedWindowTitle.Text = "Authorized Window Titles";
+            this.groupBoxAuthorizedWindowTitle.Text = "授權視窗標題更改";
             // 
             // txtAuthorizedWindowTitle
             // 
@@ -2313,7 +2313,7 @@
             this.groupBox8.Size = new System.Drawing.Size(388, 58);
             this.groupBox8.TabIndex = 29;
             this.groupBox8.TabStop = false;
-            this.groupBox8.Text = "High DPI";
+            this.groupBox8.Text = "高解析";
             // 
             // label3
             // 
@@ -2324,7 +2324,7 @@
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(80, 13);
             this.label3.TabIndex = 28;
-            this.label3.Text = "Requires restart";
+            this.label3.Text = "需要重新啟動";
             // 
             // chkDPIAware
             // 
@@ -2333,7 +2333,7 @@
             this.chkDPIAware.Name = "chkDPIAware";
             this.chkDPIAware.Size = new System.Drawing.Size(99, 17);
             this.chkDPIAware.TabIndex = 27;
-            this.chkDPIAware.Text = "DPI Awareness";
+            this.chkDPIAware.Text = "DPI 偵測";
             this.chkDPIAware.UseVisualStyleBackColor = true;
             this.chkDPIAware.CheckedChanged += new System.EventHandler(this.chkDPIAware_CheckedChanged);
             // 
@@ -2356,7 +2356,7 @@
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(400, 23);
             this.label6.TabIndex = 6;
-            this.label6.Text = "100% Free Software and Support. If you paid for anything, you got scammed.";
+            this.label6.Text = "繁體中文化 By Fuluboy";
             this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // linkWebsite

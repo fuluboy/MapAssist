@@ -15,6 +15,7 @@ namespace MapAssist.Types
         plPL,
         koKR,
         jaJP,
+        zhTW,
         zhCN,
     };
 
@@ -33,6 +34,7 @@ namespace MapAssist.Types
             [Locale.plPL] = "Polish (Poland)",
             [Locale.koKR] = "Korean (South Korea)",
             [Locale.jaJP] = "Japanese (Japan)",
+            [Locale.zhTW] = "Chinese (Taiwan)",
             [Locale.zhCN] = "Chinese (China)",
         };
 
