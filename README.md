@@ -1,4 +1,7 @@
-# [MapAssist](https://mapassist.github.io)
+# [MapAssist 繁體中文化](https://mapassist.github.io)
+
+
+設定介面及掉落繁體中文化
 
 ## Features
 
