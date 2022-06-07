@@ -862,7 +862,6 @@
             // 
             // lblAllIconOpacity
             // 
-<<<<<<< HEAD
             this.lblIconOpacity.AutoSize = true;
             this.lblIconOpacity.BackColor = System.Drawing.Color.Transparent;
             this.lblIconOpacity.Location = new System.Drawing.Point(6, 55);
@@ -870,15 +869,6 @@
             this.lblIconOpacity.Size = new System.Drawing.Size(67, 13);
             this.lblIconOpacity.TabIndex = 4;
             this.lblIconOpacity.Text = "圖標透明度";
-=======
-            this.lblAllIconOpacity.AutoSize = true;
-            this.lblAllIconOpacity.BackColor = System.Drawing.Color.Transparent;
-            this.lblAllIconOpacity.Location = new System.Drawing.Point(6, 55);
-            this.lblAllIconOpacity.Name = "lblAllIconOpacity";
-            this.lblAllIconOpacity.Size = new System.Drawing.Size(67, 13);
-            this.lblAllIconOpacity.TabIndex = 4;
-            this.lblAllIconOpacity.Text = "Icon Opacity";
->>>>>>> bfbae3cf66a808e4f64a70c4f9f60a600931cde6
             // 
             // chkToggleViaPanels
             // 
