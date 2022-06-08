@@ -862,13 +862,13 @@
             // 
             // lblAllIconOpacity
             // 
-            this.lblIconOpacity.AutoSize = true;
-            this.lblIconOpacity.BackColor = System.Drawing.Color.Transparent;
-            this.lblIconOpacity.Location = new System.Drawing.Point(6, 55);
-            this.lblIconOpacity.Name = "lblIconOpacity";
-            this.lblIconOpacity.Size = new System.Drawing.Size(67, 13);
-            this.lblIconOpacity.TabIndex = 4;
-            this.lblIconOpacity.Text = "圖標透明度";
+            this.lblAllIconOpacity.AutoSize = true;
+            this.lblAllIconOpacity.BackColor = System.Drawing.Color.Transparent;
+            this.lblAllIconOpacity.Location = new System.Drawing.Point(6, 55);
+            this.lblAllIconOpacity.Name = "lblAllIconOpacity";
+            this.lblAllIconOpacity.Size = new System.Drawing.Size(67, 13);
+            this.lblAllIconOpacity.TabIndex = 4;
+            this.lblAllIconOpacity.Text = "圖標透明度";
             // 
             // chkToggleViaPanels
             // 
@@ -1059,7 +1059,7 @@
             this.chkLinesNextArea.Name = "chkLinesNextArea";
             this.chkLinesNextArea.Size = new System.Drawing.Size(73, 17);
             this.chkLinesNextArea.TabIndex = 3;
-            this.chkLinesNextArea.Text = "下一個區域";
+            this.chkLinesNextArea.Text = "下個區域";
             this.chkLinesNextArea.UseVisualStyleBackColor = true;
             this.chkLinesNextArea.CheckedChanged += new System.EventHandler(this.chkLinesNextArea_CheckedChanged);
             // 

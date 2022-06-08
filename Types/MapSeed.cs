@@ -1,42 +1,52 @@
 ﻿using MapAssist.Helpers;
-using MapAssist.Interfaces;
-using System;
-using System.Runtime.InteropServices;
+using System.ComponentModel;
 
 namespace MapAssist.Types
 {
-    public class MapSeed : IUpdatable<MapSeed>
+    public class MapSeed
     {
-        private readonly ulong _seedHash;
-        public uint Seed { get; private set; }
+        private static readonly NLog.Logger _log = NLog.LogManager.GetCurrentClassLogger();
 
-        public MapSeed(ulong SeedHash)
-        {
-            _seedHash = SeedHash;
-            Update();
-        }
+        private BackgroundWorker BackgroundCalculator;
+        private uint GameSeedXor { get; set; } = 0;
 
-        public MapSeed Update()
+        public bool IsReady => BackgroundCalculator != null && GameSeedXor != 0;
+
+        public uint Get(UnitPlayer player)
         {
-            using (var processContext = GameManager.GetProcessContext())
+            if (GameSeedXor != 0)
             {
-                try
-                {
-                    var ldr = GetLdrAddress();
-                    var dwInitSeedHash = _seedHash;
-                    var k0 = 0xB133105CF0F31CD6 ^ 0x770AFD680A3D2D6D;
-                    var k1 = 0x176E2BC088CB2DA9ul ^ (ulong)ldr.ToInt64() ^ 0xA23D40A5FD70B4A4;
-                    var t1 = IntPtr.Add(processContext.BaseAddr, (int)(0x20DEA40 + (k0 & 0xFFF)));
-                    var t2 = IntPtr.Add(processContext.BaseAddr, (int)(0x20DEA40 + (k0 >> 52)));
-                    var k2 = processContext.Read<ulong>(t1);
-                    var k3 = processContext.Read<ulong>(t2);
-                    var seed = k1 ^ dwInitSeedHash | (k1 ^ dwInitSeedHash | (k1 ^ (dwInitSeedHash | (dwInitSeedHash | dwInitSeedHash & 0xFFFFFFFF00000000 ^ ((dwInitSeedHash ^ ~HiDWord(k2)) << 32)) & 0xFFFFFFFF00000000 ^ ((dwInitSeedHash ^ 0x7734D256) << 32))) & 0xFFFFFFFF00000000 ^ ((ror4(HiDWord(k3), 11) ^ ~(k1 ^ dwInitSeedHash)) << 32)) & 0xFFFFFFFF00000000 ^ ((k1 ^ dwInitSeedHash ^ ~k2) << 32);
-
-                    Seed = (uint)(int)seed;
-                }
-                catch (Exception) { }
+                return (uint)(player.InitSeedHash ^ GameSeedXor);
             }
-            return this;
+            else if (BackgroundCalculator == null)
+            {
+                var InitSeedHash = player.InitSeedHash;
+                var EndSeedHash = player.EndSeedHash;
+
+                BackgroundCalculator = new BackgroundWorker();
+
+                BackgroundCalculator.DoWork += (sender, args) =>
+                {
+                    var foundSeed = D2Hash.Reverse(EndSeedHash);
+
+                    if (foundSeed != null)
+                    {
+                        GameSeedXor = (uint)InitSeedHash ^ (uint)foundSeed;
+                    }
+
+                    BackgroundCalculator.Dispose();
+
+                    if (GameSeedXor == 0)
+                    {
+                        _log.Info("Failed to brute force map seed");
+                        BackgroundCalculator = null;
+                    }
+                };
+
+                BackgroundCalculator.RunWorkerAsync();
+            }
+
+            return 0;
         }
 
         public static IntPtr GetLdrAddress()
