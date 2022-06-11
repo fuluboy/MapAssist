@@ -958,13 +958,13 @@ namespace MapAssist.Helpers
             // Game Name
             if (MapAssistConfiguration.Loaded.GameInfo.ShowGameName && _gameData.Session.GameName.Length > 0)
             {
-                var gameNameText = "Game: " + _gameData.Session.GameName;
+                var gameNameText = "遊戲: " + _gameData.Session.GameName;
                 DrawText(gfx, anchor, gameNameText, font, fontSize, textColor, true, textAlign);
                 anchor.Y += lineHeight;
 
                 if (_gameData.Session.GamePass.Length > 0)
                 {
-                    var gamePassText = "Password: " + _gameData.Session.GamePass;
+                    var gamePassText = "密碼: " + _gameData.Session.GamePass;
                     DrawText(gfx, anchor, gamePassText, font, fontSize, textColor, true, textAlign);
                     anchor.Y += lineHeight;
                 }
@@ -973,7 +973,7 @@ namespace MapAssist.Helpers
             // Game Timer
             if (MapAssistConfiguration.Loaded.GameInfo.ShowGameTimer)
             {
-                var gameElapsed = "Game Time: " + _gameData.Session.GameTimerDisplay;
+                var gameElapsed = "遊戲時間: " + _gameData.Session.GameTimerDisplay;
                 DrawText(gfx, anchor, gameElapsed, font, fontSize, textColor, textShadow, textAlign);
                 anchor.Y += lineHeight;
             }
@@ -989,7 +989,7 @@ namespace MapAssist.Helpers
             // Difficulty
             if (MapAssistConfiguration.Loaded.GameInfo.ShowDifficulty)
             {
-                var difficultyText = "Difficulty: " + _gameData.Difficulty.ToString();
+                var difficultyText = "難度: " + _gameData.Difficulty.ToString();
                 DrawText(gfx, anchor, difficultyText, font, fontSize, textColor, textShadow, textAlign);
                 anchor.Y += lineHeight;
             }
@@ -1000,7 +1000,7 @@ namespace MapAssist.Helpers
                 var areaLevel = _gameData.Area.Level(_gameData.Difficulty);
                 if (areaLevel > 0)
                 {
-                    var areaLevelText = "Area Level: " + areaLevel;
+                    var areaLevelText = "地圖等級: " + areaLevel;
                     DrawText(gfx, anchor, areaLevelText, font, fontSize, textColor, textShadow, textAlign);
                     anchor.Y += lineHeight;
                 }
@@ -1009,7 +1009,7 @@ namespace MapAssist.Helpers
             // Area Timer
             if (MapAssistConfiguration.Loaded.GameInfo.ShowAreaTimer)
             {
-                var areaElapsed = "Area Time: " + _gameData.Session.AreaTimerDisplay;
+                var areaElapsed = "地圖時間: " + _gameData.Session.AreaTimerDisplay;
                 DrawText(gfx, anchor, areaElapsed, font, fontSize, textColor, textShadow, textAlign);
                 anchor.Y += lineHeight;
             }

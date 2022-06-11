@@ -100,10 +100,10 @@ namespace MapAssist
 
                 var contextMenu = new ContextMenuStrip();
 
-                var configMenuItem = new ToolStripMenuItem("Config", null, ShowConfigEditor);
-                var lootFilterMenuItem = new ToolStripMenuItem("Loot Filter", null, LootFilter);
-                var restartMenuItem = new ToolStripMenuItem("Restart", null, TrayRestart);
-                var exitMenuItem = new ToolStripMenuItem("Exit", null, TrayExit);
+                var configMenuItem = new ToolStripMenuItem("設置", null, ShowConfigEditor);
+                var lootFilterMenuItem = new ToolStripMenuItem("掉落過濾", null, LootFilter);
+                var restartMenuItem = new ToolStripMenuItem("重新啟動", null, TrayRestart);
+                var exitMenuItem = new ToolStripMenuItem("離開", null, TrayExit);
                 contextMenu.Items.Add(exitMenuItem);
 
                 contextMenu.Items.AddRange(new ToolStripItem[]

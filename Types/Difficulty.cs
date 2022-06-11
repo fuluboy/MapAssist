@@ -2,9 +2,9 @@
 {
     public enum Difficulty : ushort
     {
-        Normal = 0,
-        Nightmare = 1,
-        Hell = 2
+        普通 = 0,
+        惡夢 = 1,
+        地獄 = 2
     }
 
     public static class DifficultyExtension
