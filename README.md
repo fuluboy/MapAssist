@@ -1,4 +1,7 @@
 # [MapAssist](https://mapassist.github.io)
+Status: DETECTED
+
+Do Not Use on B.net
 
 ## Features
 
